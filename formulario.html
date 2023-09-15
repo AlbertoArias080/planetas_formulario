@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <div class="titulo">PLANETA GENERICO</div>
+    <div class="contenedor">
+        
+        <div>
+            <img class="astronauta" id="astro" type="submit" src="images/astronauta.gif" onclick="gravedadG()">
+        </div>
+
+        <div>
+            <img class="planeta" id="planetaGenerico" type="submit" src="images/planetagenerico.gif" alt=""
+                onclick="tamanogenerico()" name="grav">
+        </div>
+
+        <a class="planetaGenerico btn btn-primary" type="button" id="nuevoPlaneta" onclick="reiniciar()">Reiniciar</a>
+
+    </div>
+    <h1></h1>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        data-bs-whatever="@mdo">Datos planeta generico</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 color" id="exampleModalLabel ">Parametros planeta generico</h1>
+                </div>
+                <div class="modal-body">
+                    <form class="formulario" action="planetaG.html" method="GET" id="planetaGener">
+                        <div class="mb-3 ">
+                            <label for="exampleInputPassword1" class="form-label color">Gravedad</label>
+                            <input type="text" class="form-control" id="gravedad">
+                            <div id="gravedadHelp" class="form-label color">Ingrese la gravedad del planeta.</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="planetaGenerico btn btn-primary" type="button" id="nuevoPlaneta" href="index.html">Atras</a>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

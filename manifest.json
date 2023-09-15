@@ -1,0 +1,12 @@
+{
+    "name": "Simulador",
+    "version": "1.0.0",
+    "description": "Simulado de gravedad de planetas",
+    "manifest_version": 3,
+    "author": "yo",
+    "action":{
+            "default_popup": "index.html",
+            "defaul_title": "Simulador"
+    }
+
+}

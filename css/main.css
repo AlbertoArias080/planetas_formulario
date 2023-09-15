@@ -1,0 +1,39 @@
+.body {
+    background-image: url("https://usagif.com/wp-content/uploads/gif/outerspace-58.gif");
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: 100%;
+}
+.titulo{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 750px;
+
+}
+.contenedor {
+    width:1600px;
+    margin-top: 100px;
+
+}
+.formulario{
+    width:400px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: solid 1px;
+}
+.planeta {
+    width: 200px;
+    margin-left: 1300px; 
+    margin-top: 30px;   
+}
+.astronauta{
+     width: 100px;
+     position: absolute;
+     margin-top: 30px;
+}
+
+.color{
+    color: #646363;
+}
+
+
